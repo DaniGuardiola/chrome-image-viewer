@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+html,body,.cover {
+	width: 100%;
+	height: 100%;
+}
+#img {
+	width: auto;
+	height: auto;
+}
+#drag-box {
+	position: fixed;
+	-webkit-app-region: drag;
+	width: 100%;
+	height: 30%;
+}
+}

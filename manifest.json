@@ -1,0 +1,22 @@
+{
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "manifest_version": 2,
+  "name": "Image Viewer",
+  "version": "0.0.0.1",
+  "description": "A simple and minimal image viewer",
+  "icons": { "16": "calculator-16.png", "128": "calculator-128.png" },
+  "permissions": ["webview"],
+  "file_handlers": {
+    "text": {
+      "types": [
+        "image/png",
+        "image/jpeg"
+      ],
+      "title": "Image viewer"
+    }
+  }
+}
